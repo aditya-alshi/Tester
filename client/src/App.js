@@ -7,7 +7,7 @@ export default function App(){
     React.useEffect(()=>{
         async function getData(){
             try{
-                const response = await fetch('http://localhost:8000/pani');
+                const response = await fetch('https://tester-urfv.onrender.com/pani');
                 const convRes = await response.text();
                 console.log(convRes);
                 setMessage(convRes);
