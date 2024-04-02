@@ -1,0 +1,33 @@
+:root{
+    --dark:#0D0D0D;
+    --light--green: #478C45;
+    --dark--green: #3A7338;
+    --light--gray: #E0F2DF;
+    --dark--gray: #B1D9B0;
+  }
+
+  html{
+    font-size: 62.5%;
+  }
+
+  .app--wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+  }
+
+  .filter--sections{
+    margin-top: 1rem;
+    border: 0.1rem solid black;
+  }
+  
+  .hotel--wrapper{
+    border: 0.1rem solid black;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .hotel--name{
+    font-weight: bold;
+  }
